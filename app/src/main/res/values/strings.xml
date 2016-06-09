@@ -7,4 +7,7 @@
     <string name="title_activity_splash_screen">SplashScreen</string>
 
     <color name="dark_green">#FF33B5E5</color>
+    <string name="title_activity_animals_list">AnimalsList</string>
+    <string name="title_activity_galleries">Galleries</string>
+    <string name="title_activity_contact_us">ContactUs</string>
 </resources>

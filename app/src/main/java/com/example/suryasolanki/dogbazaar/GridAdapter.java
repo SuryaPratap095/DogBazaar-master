@@ -1,6 +1,7 @@
 package com.example.suryasolanki.dogbazaar;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
@@ -80,8 +81,22 @@ public class GridAdapter extends BaseAdapter{
 
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(mContext,"You clicked At"+breeds[+position], Toast.LENGTH_SHORT).show();
-                }
+                    Toast.makeText(mContext, "You clicked At " + breeds[+position], Toast.LENGTH_SHORT).show();
+                    for (int i = 0; i <= 3; i++) {
+                        if (i == position) {
+                            Intent intent = new Intent(mContext, AnimalsList.class);
+                            mContext.startActivity(intent);
+                            break;
+                        }
+                    }
+                       if (position == 4) {
+                            Intent intent = new Intent(mContext, Galleries.class);
+                            mContext.startActivity(intent);
+                        } else if (position == 5) {
+                            Intent intent = new Intent(mContext, ContactUs.class);
+                            mContext.startActivity(intent);
+                        }
+                    }
             });
         }
         else{
