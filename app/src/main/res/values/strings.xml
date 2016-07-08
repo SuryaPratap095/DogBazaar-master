@@ -10,4 +10,5 @@
     <string name="title_activity_animals_list">AnimalsList</string>
     <string name="title_activity_galleries">Galleries</string>
     <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_animal_service_list">AnimalServiceList</string>
 </resources>

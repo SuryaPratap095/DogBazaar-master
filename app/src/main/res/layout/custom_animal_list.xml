@@ -22,18 +22,22 @@
             android:textStyle="bold"
             />
         <TextView
+
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txtPrice"
+            android:textColor="@color/dark_green"
             />
     </LinearLayout>
 
     <ImageView
-        android:layout_height="60dp"
-        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_width="25dp"
         android:id="@+id/imageNext"
         android:padding="2dp"
         android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
         />
 
 </RelativeLayout>
